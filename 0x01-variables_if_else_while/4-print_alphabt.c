@@ -1,11 +1,10 @@
 #include<stdio.h>
 
 /**
- *
- * main - print alphabet except two of them
- *
- * Return: Always( success)
- */
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
 char a;
