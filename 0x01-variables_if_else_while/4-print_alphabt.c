@@ -6,7 +6,7 @@
  *
  * Return: Always( success)
  */
-int main
+int main(void)
 {
 char a;
 for (a = 'a'; a <= 'z'; a++)
