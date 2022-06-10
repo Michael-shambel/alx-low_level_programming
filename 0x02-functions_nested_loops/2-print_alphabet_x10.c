@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_10x - prints alphabets
- *
- * Return: Always (Success)
+ * print_alphabet_10x - prints alphabet
  */
 void print_alphabet_10x(void)
 {
