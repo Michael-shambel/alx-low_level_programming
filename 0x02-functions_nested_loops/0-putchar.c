@@ -1,6 +1,7 @@
-#include "main.h"
+#include<studio.h>
+#include<main.h>
 /**
- * main - print
+ * main - 
  *
  * Return: Always 0 (Success)
  */
