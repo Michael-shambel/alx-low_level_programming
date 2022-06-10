@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-char print[8] = "_putchar";
+char print[9] = "_putchar";
 int i = 0;
-while (i < 2)
+while (i < 8)
 {
 _putchar(print[i]);
 i++;
