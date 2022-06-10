@@ -6,8 +6,13 @@
  */
 int main(void)
 {
-char *print = "_putchar"
-_putchar(*print);
+char print[3] = "_putchar";
+int i = 0;
+while (i < 2)
+{
+_putchar(print[i]);
+i++;
+}
 _putchar('\n');
 return (0);
 }
