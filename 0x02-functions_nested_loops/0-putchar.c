@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char print[3] = "_putchar";
+char print[8] = "_putchar";
 int i = 0;
 while (i < 2)
 {
