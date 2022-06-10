@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - print lowercase alphabet
+ * main - print alphabet
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 char word = 'a';
 while (word <= 'z')
@@ -13,5 +13,4 @@ _putchar(word);
 word++;
 }
 _putchar('\n');
-return (0);
 }
