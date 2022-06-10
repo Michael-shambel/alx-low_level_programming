@@ -1,11 +1,22 @@
 #include "main.h"
 /**
- * main - check the code 
+ * print_alphabet_10x - prints alphabets
  *
- * Return: Always(Success)
+ * Return: Always (Success)
  */
-int main(void)
+void print_alphabet_10x(void)
 {
-	print_alphabet_x10();
-	return (0);
+char alpha;
+int i;
+i = 0;
+while (i < 10)
+{
+alpha = 'a';
+while (alpha <= 'z')
+{
+_putchar(alpha);
+alpha++;
+}
+_putchar('\n');
+}
 }
