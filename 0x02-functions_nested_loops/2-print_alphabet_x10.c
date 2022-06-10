@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 - prints alphabet
  */
-void print_alphabet_10x(void)
+void print_alphabet_x10(void)
 {
 char alpha;
 int i;
