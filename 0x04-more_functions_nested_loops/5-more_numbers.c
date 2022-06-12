@@ -10,7 +10,9 @@ for (i = 0; i < 10; i++)
 {
 for (j = 0; j < 15; j++)
 {
-_putchar(y + '0');
+if (j >= 10)
+_putchar((y / 10) + '0');
+_putchar((y % 10) + '0');
 }
 _putchar('\n');
 }
