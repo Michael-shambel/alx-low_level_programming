@@ -14,10 +14,10 @@ for (j = 0; j < 15; j++)
 {
 if (j / 10 != 0)
 {
-_putchar((y / 10) + '0');
+_putchar(y / 10 + '0');
 }
-putchar((y % 10) + '0');
+_putchar(y % 10 + '0');
 }
-putchar('\n');
+_putchar('\n');
 }
 }
