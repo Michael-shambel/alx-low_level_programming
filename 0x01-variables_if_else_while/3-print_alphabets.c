@@ -13,6 +13,8 @@ int main(void)
 	{
 	putchar(CAP);
 	}
+
+
 	for (CAP = 'A'; CAP <= 'Z'; CAP++)
 	{
 	putchar(CAP);
