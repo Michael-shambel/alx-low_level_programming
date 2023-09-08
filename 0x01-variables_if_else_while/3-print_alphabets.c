@@ -9,7 +9,7 @@ int main(void)
 {
 	char CAP, SMALL;
 
-	for (SMALL = 'a'; SMALL <= 'Z'; SMALL++)
+	for (CAP = 'a'; CAP <= 'Z'; CAP++)
 	{
 	putchar(SMALL);
 	}
