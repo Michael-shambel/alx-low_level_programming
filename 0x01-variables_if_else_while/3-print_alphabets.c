@@ -11,7 +11,7 @@ int main(void)
 
 	for (CAP = 'a'; CAP <= 'Z'; CAP++)
 	{
-	putchar(SMALL);
+	putchar(CAP);
 	}
 	for (CAP = 'A'; CAP <= 'Z'; CAP++)
 	{
