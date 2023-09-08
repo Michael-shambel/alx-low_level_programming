@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - print the last digit 
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
