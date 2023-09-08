@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char CAP, SMALL;
+	char CAP;
 
 	for (CAP = 'a'; CAP <= 'Z'; CAP++)
 	{
