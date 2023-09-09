@@ -23,7 +23,7 @@ else if (rem == 0)
 {
 printf("Last digit of %d is %u and is 0\n", n, rem);
 }
-else if (rem < 6 && rem != 0)
+else
 {
 printf("Last digit of %d is %u and is less than 6 and not 0\n", n, rem);
 }
