@@ -4,7 +4,6 @@
 /**
  * _abs - output the absolute value of any number
  * @c - input character
- *
  * Return: absolue value or poseive number
  */
 int _abs(int c)
