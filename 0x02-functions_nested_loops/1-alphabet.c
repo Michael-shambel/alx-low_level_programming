@@ -18,4 +18,9 @@ for (i = 'a'; i <= 'z'; i++)
 putchar('\n');
 
 }
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
 
