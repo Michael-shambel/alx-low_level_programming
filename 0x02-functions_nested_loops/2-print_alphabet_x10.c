@@ -17,9 +17,6 @@ for (c = 'a'; c <= 'z'; c++)
 _putchar(c);
 }
 i++;
-
 _putchar('\n');
-
 }
-return ;
 }
