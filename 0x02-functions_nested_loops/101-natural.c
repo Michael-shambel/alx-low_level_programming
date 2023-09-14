@@ -1,15 +1,23 @@
 #include <stdio.h>
 
-int main() {
-    int i, sum = 0;
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
 
-    for (i = 1; i < 1024; i++) {
-        if (i % 3 == 0 || i % 5 == 0) {
-            sum += i;
-        }
-    }
+int main(void)
+{
+int i, sum = 0;
+for (i = 1; i < 1024; i++)
+{
+if (i % 3 == 0 || i % 5 == 0)
+{
+sum += i;
+}
+}
 
-    printf("%d\n", sum);
+printf("%d\n", sum);
 
-    return 0;
+return (0);
 }
