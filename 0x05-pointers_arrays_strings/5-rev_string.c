@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse strings
- *
+ *@s: sring value
  * Return: nothing
  */
 void rev_string(char *s)
