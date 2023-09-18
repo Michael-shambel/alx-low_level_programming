@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * print_rev
+ * print_rev - print reverse og string
  *@s: value of string
  * Return: Always 0.
  */
 void print_rev(char *s)
 {
 int length = 0;
-int i;
+
 while (*s != '\0')
 {
 length++;
 s++;
 }
-for (i = length - 1; i >= 0; i--)
+for (length = length - 1; length >= 0; length--)
 {
-_putchar(s[i]);
+_putchar(s[length]);
 }
 _putchar('\n');
 }
