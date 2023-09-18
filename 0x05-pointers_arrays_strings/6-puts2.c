@@ -2,8 +2,8 @@
 
 /**
  * puts2 - i will return even value
- *@str - input value
- * Return: Always 0.
+ *@str: input value
+ * Return: nothing
  */
 void puts2(char *str)
 {
