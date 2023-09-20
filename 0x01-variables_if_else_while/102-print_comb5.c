@@ -24,8 +24,8 @@ putchar(j + '0');
 putchar(' ');
 putchar(k + '0');
 putchar(l + '0');
-if ((i != 9) || (j != 8) || (k != 9) || (l != 9))
-{
+if (i == 9 && j == 8 && k == 9 && l == 9)
+continue;
 putchar(',');
 putchar(' ');
 
@@ -33,9 +33,6 @@ putchar(' ');
 }
 }
 }
-}
 putchar('\n');
 return (0);
-
 }
-
