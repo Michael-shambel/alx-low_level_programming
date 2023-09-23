@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * times_table - write time able
  *
- * Return: Always 0.
+ * Return: nothing
  */
 void times_table(void)
 {
@@ -12,6 +12,7 @@ void times_table(void)
 	int k;
 	int l;
 	int m;
+
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
@@ -28,7 +29,7 @@ void times_table(void)
 			}
 			else
 			{
-				if ( j != 0)
+				if (j != 0)
 				{
 					_putchar (44);
 					_putchar (32);
