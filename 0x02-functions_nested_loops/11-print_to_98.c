@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print after 98 
+ * print_to_98 - print after 98
  *@n: number to be taken
  * Return: nothing
  */
