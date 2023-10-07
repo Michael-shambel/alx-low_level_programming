@@ -12,13 +12,12 @@ int main(void)
 	long num = 612852475143;
 	double num1 = sqrt(num);
 
-	while (i <= num1)
+	while (i = 1; i <= num1; i++)
 	{
 		if (num % i == 0)
 		{
 			max = num / i;
 		}
-		i++;
 	}
 	printf("%ld\n", max);
 	return (0);
