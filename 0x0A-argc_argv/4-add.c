@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * main - calculate multip
+ * main - calculate add
  * @argc: argument count
  * @argv: argument vector
  *
