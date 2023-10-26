@@ -14,7 +14,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	int i;
 	int flipbit = 0;
 	unsigned long int now;
-	unsigned int exor = n ^ m;
+	unsigned long  int exor = n ^ m;
 
 	for (i = 63; i >= 0; i--)
 	{
