@@ -1,8 +1,10 @@
 #include "hash_tables.h"
 /**
+ *hash_table_get - get hash
+ *@ht: hash table
+ *@key: the key loser
  *
- *
- *
+ * Return: the value
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
@@ -14,7 +16,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (NULL);
 	}
 
-	index = key_index((const unsigned char *)key, ht->size);
+	index = key_index((unsigned char *)key, ht->size);
 	current = ht->array[index];
 
 	while (current != NULL)
@@ -24,5 +26,5 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		current = current->next;
 	}
 
-	return NULL;
+	return (NULL);
 }
