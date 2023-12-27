@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *get_endinness - check endiness
+ *get_endianness - check endiness
  *
  *Return: integer 0 or 1
  *
